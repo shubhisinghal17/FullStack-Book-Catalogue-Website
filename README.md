@@ -1,3 +1,10 @@
+1. Run "npm install"
+2. Start the backend with "npm run start"
+3. In a seperate terminal run "npm run dev"
+4. Open your frontend in browser at "http://localhost:5173"
+
+
+
 This Project takes inspiration from the book cataloging website GoodReads and I am calling it BookCatalogueWebsite .
 The project allows people to Login to the BookCatalogueWebsite. The users can then search for any book they like and they also have option to add book to various lists like the TBR or Read. Apart from searching for books, the user can also view their respective Lists. As mentioned before, the default lists are called TBR and Read, BUT the user can also create their own custom lists to add books to them. Once the user has added a book to the list, they can also delete the book from that list whenever they wish.
 Every user can only see their own personally saved books and lists data (which also includes custom lists) and can’t access any other user’s personal data. I have also included a user called “Admin” who can see the data for all the registered users but cannot modify their users data.
