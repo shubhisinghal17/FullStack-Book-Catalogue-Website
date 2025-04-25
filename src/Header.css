@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #3D90D7;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.welcome-heading{
+    margin-left: 1.5rem;
+}
+
+.logout-section{
+    margin-right: 1.5rem;
+}
+
+.book-search{
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.lists-button{
+    background-color: #B5FCCD;
+    color: #3A59D1;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 10rem;    
+}
+
+.lists-button:hover{
+    background-color: #3A59D1;
+    color: #B5FCCD;
+}
+
+.logout-button{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 7rem;   
+}
+
+.logout-button:hover{
+    background-color: white;
+    color: red;
+}

@@ -1,0 +1,49 @@
+.registereation {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.registereation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.registereation-form label {
+  font-size: 0.9rem;
+  color: #495057;
+  font-weight: 600;
+  margin-bottom: -0.5rem;
+}
+
+.registereation-username {
+  padding: 0.8rem 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.registereation-username:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+.register-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.register-button:hover {
+  background-color: #3e8e41;
+}
+
+
+

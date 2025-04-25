@@ -1,0 +1,9 @@
+.status {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 80%;
+  }

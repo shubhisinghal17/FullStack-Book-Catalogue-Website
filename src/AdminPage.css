@@ -1,0 +1,127 @@
+.admin-container {
+    width: 90%;
+    height: 80%;
+    padding: 20px;
+}
+
+.user-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #FEC7B4;
+}
+
+.username-column {
+    top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.user-name {
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.lists-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.list-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.list-name {
+    color: #444;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+.book-card {
+    background: white;
+    border-radius: 5px;
+}
+
+.book-cover {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.book-details {
+    padding: 10px;
+}
+
+.books-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    padding: 20px;
+}
+
+.book-card {
+    background: white;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.book-title {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+}
+
+.book-author {
+    margin: 0 0 3px 0;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.book-year {
+    margin: 0;
+    font-size: 0.7rem;
+    color: #888;
+}
+.admin-logout-button{
+    position: absolute;
+    top:10px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 5rem; 
+}
+
+.admin-logout-button:hover{
+    background-color: white;
+    color: red;
+}
+
+.empty-admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    width: 100%; 
+    background-color: white;
+    position: fixed;
+    margin-top: 3rem;
+    top: 0;
+    left: 0;
+}
+
+.empty-admin-container p {
+    font-size: 2rem; 
+    color: #333; 
+}
