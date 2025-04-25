@@ -10,16 +10,27 @@ The project allows people to Login to the BookCatalogueWebsite. The users can th
 Every user can only see their own personally saved books and lists data (which also includes custom lists) and can’t access any other user’s personal data. I have also included a user called “Admin” who can see the data for all the registered users but cannot modify their users data.
 
 • “dog” has been a banned username and has been treated differently from invalid characters in the username: Meaning that not only will a user not be able to register as “dog” but when a user tries to login as “dog” they will be told that they don’t have permission to access the website. Meaning that they are banned. This is being validated in frontend and backend
+
 • Username with special characters are not allowed to register.
+
 • “admin” is already a registered username so user can’t register using “admin”. This has been validated in frontend and backend.
+
 • User can login using “admin” to see the list details of all the registered users. But all the individual users can only access their individual data and can not see any other user’s list data. Only “admin” has that access.
+
 • If no user has been logged in yet, then the admin will see an empty page with a logout button.
+
 • I have used Open Library as an external API to search for the books on being entered by users. ( https://openlibrary.org/dev/docs/api/search )
+
 o So when a user tries to search for a book on my website, my API sends a request to Open Library’s API to get various results, which I have limited to 10 results in-order to save on loading time
+
 o Once the response from OpenLibrary is parsed and formatted, it is sent to my API service calls to be shown to the user.
+
 • When the user clicks on ‘My Lists’ in the header, they can see all their lists and can further click on any list and can see the books saved in that particular list. They also see an option to create new lists under all the lists mentioned. Once they create a new list and then try to search for a book, they will be able to add that book to their created list as well.
+
 • While user is on the lists page and refreshed the page, they can still see the details of the previous list they were seeing. But when the user is searching for books and refreshed the page, they go back to seeing the Lists page again.
+
 • If a user is logged in multiple different browsers and they log out of one browser, they do not get logged out in other browsers. But if the user is logged in multiple tabs in the same browser and logs out of one tab, they can’t make changes to their page in other tabs until they login again.  
+
 • In between requests, the user can see “Loading” page
 
 STEPS TO FOLLOW TO UNDERSTAND THE NITIGRITIES OF THE WEBSITE IF NEEDED
